@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'client-bg': "url(../images/client-bg-img.svg)",
-        'ready-bg': "url(../images/ready-bg-img.svg)"
+        'client-bg': "url('./public/images/client-bg-img.svg')",
+        'ready-bg': "url('./public/images/ready-bg-img.svg')",
       }
     },
   },
