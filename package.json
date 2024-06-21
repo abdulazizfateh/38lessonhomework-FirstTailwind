@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss styles.css -o output.css",
-     "watch": "postcss styles.css -o output.css --watch"
+    "build": "postcss ./src/style.css -o output.css",
+     "watch": "postcss ./public/style.css -o output.css --watch"
   },
   "keywords": [],
   "author": "",
